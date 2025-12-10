@@ -32,3 +32,9 @@ Dupa cum se observa in graficele de mai jos, modelul converge corect, atingand o
 1.  Implementarea clasei `AimdScheduler` in Keras/TensorFlow.
 2.  Rularea experimentelor comparative: Baseline vs. AIMD.
 3.  Analiza stabilitatii si vitezei de convergenta.
+
+## References:
+
+1.  **Sursa Arheologica (AIMD):** Chiu, D. M., & Jain, R. (1989). [Analysis of the increase and decrease algorithms for congestion avoidance in computer networks](https://www.cs.wustl.edu/~jain/papers/ftp/cong_av.pdf). Journal of Computer Networks and ISDN Systems.
+2.  **Context Modern Deep Learning:** Smith, L. N. (2017). [Cyclical Learning Rates for Training Neural Networks](https://arxiv.org/abs/1506.01186). 
+3.  **Setul de Date:** Krizhevsky, A. (2009). [The CIFAR-10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html). University of Toronto.
