@@ -1,7 +1,7 @@
 # Antrenarea Retelelor Neuronale folosind Controlul Congestiei (AIMD)
 
 **Proiect Mid-Term: Arheologia Masinilor Inteligente**
-**Student:** [Scrie Numele Tau Aici]
+
 
 ## 1. Descrierea Proiectului
 Acest proiect isi propune sa testeze o ipoteza inedita: aplicarea algoritmului **AIMD (Additive Increase Multiplicative Decrease)** in antrenarea retelelor neuronale.
@@ -14,8 +14,8 @@ Utilizam setul de date **CIFAR-10**, un benchmark standard in Computer Vision.
 * **Clase:** 10 clase echilibrate (avion, masina, pasare, pisica, etc.).
 
 Mai jos sunt cateva exemple din setul de date pe care l-am analizat:
+<img width="787" height="100" alt="img1" src="https://github.com/user-attachments/assets/b6277391-8d94-4ac9-ab1a-e888165473ef" />
 
-![Exemple CIFAR-10](AICI_PUI_LINK_CATRE_POZA_1_CU_BROASCA.jpg)
 
 ## 3. Modelul si Implementarea
 Pentru a avea un termen de comparatie valid, am implementat un model **Baseline** (de baza):
@@ -27,7 +27,8 @@ Pentru a avea un termen de comparatie valid, am implementat un model **Baseline*
 In aceasta etapa, am antrenat modelul standard (fara AIMD) pentru a stabili linia de baza.
 Dupa cum se observa in graficele de mai jos, modelul converge corect, atingand o acuratete de peste 70% in primele 10 epoci:
 
-![Grafice Rezultate](AICI_PUI_LINK_CATRE_POZA_2_CU_GRAFICELE.jpg)
+<img width="1003" height="389" alt="img2" src="https://github.com/user-attachments/assets/201483c0-56f6-4531-8be6-9a18b364d6bf" />
+
 
 ## 5. Plan de Lucru (Next Steps)
 1.  Implementarea clasei `AimdScheduler` in Keras/TensorFlow.
